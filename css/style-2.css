@@ -25,6 +25,10 @@ header{
 	border-bottom: 1px solid #333
 }
 
+.sessao-actors > div:nth-child(2) {
+	padding-bottom: 50px;
+	}
+
 .titulo-do-box{
     background: white;
     color: black;
@@ -104,7 +108,7 @@ h1{
 }
 
 .sessao-actors{
-	height: 100%;
+	height: 80%;
 }
 
 .sessao > .titulo-do-grafico{
@@ -159,6 +163,7 @@ html,body {
 
 .sessao{
 	padding:30px;
+	overflow: auto;
 }
 
 .sessao-resumo{

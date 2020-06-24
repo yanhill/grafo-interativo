@@ -1,0 +1,340 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+.cf:after {
+	clear: both;
+}
+
+.cf {
+	zoom: 1;
+}
+
+.projeto{
+	width:300px;
+	height:34px;
+}
+
+header{
+	border-bottom: 1px solid #333;
+	background: rgba(0, 0, 0,0.9);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	border-bottom: 1px solid #333
+}
+
+.titulo-do-box{
+    background: white;
+    color: black;
+	text-align: center;
+	font-weight: 700;
+    padding: 5px;
+}
+
+h1{
+	padding:auto;
+	font-size: 1.25em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	position:absolute;
+	margin:auto;
+	color:rgb(255, 255, 255);
+
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.sessao{
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+}
+
+.titulo-do-mapa{
+	line-height: 1.3em;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+
+.titulo-do-debate{
+	background-color:white;
+	display:flex;
+	padding:10px;
+	border-left:1px solid black;
+}
+
+.interface1{
+	position: fixed;
+    top: 34px;
+}
+
+.nome-do-debate{
+	font-weight: 800;
+}
+
+.nome-do-debate , .data-do-debate{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	padding: 0px 10px;
+}
+
+.selection > .titulo{
+	margin-bottom:8px;
+}
+
+.selection > .substance{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dado-numerico{
+	margin-bottom: 2px;
+}
+
+.sessao > .cabecalho{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+	font-weight: 400;
+	margin-bottom: 0;
+}
+
+.sessao-actors{
+	height: 100%;
+}
+
+.sessao > .titulo-do-grafico{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1em;
+	font-weight: 400;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+	line-height:1.25em;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Lato', sans-serif;
+}
+
+.sigma-parent {
+	position: relative;
+	height: 100%;
+}
+
+/* GRAFO */
+.sigma-expand {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	background-position: center center;
+	background-repeat: no-repeat;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#oii span {
+	display:none;
+}
+
+.titulo-sessao, .uptitle{
+	margin-bottom: 10px;
+	font-weight: 600;
+	color: #4573db;
+}
+
+.sessao{
+	padding:30px;
+}
+
+.sessao-resumo{
+	padding-top:0px;
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.container-header{
+	display:flex
+}
+
+#maintitle {
+	width: 100%;
+	height: 72px;
+	background-repeat: no-repeat;
+	margin-bottom:20px;
+}
+
+#painel-esquerdo {
+	background-color:rgba(0, 0, 0,0.9);
+	width:300px;
+	color: #fff;
+	border-top:1px solid #333;
+	letter-spacing: 0.05em;
+	border-right:1px solid #000;
+}
+
+#painel-direito {
+	background-color:rgba(0, 0, 0,0.9);
+	width:300px;
+	color: #fff;
+	border-top:1px solid #333;
+	border-left: 1px solid #333;
+	letter-spacing: 0.05em;
+	border: 1px solid #333;
+	height: 100%;
+	position: fixed;
+    top: 34px;
+}
+
+.interface{
+	display:flex;
+	justify-content: space-between;
+}
+
+.interface2{
+	float:right;
+	margin-right:300px;
+}
+
+.interfacezona{
+	width: 100%;
+	position: fixed;
+    top: 34px;
+}
+
+.qnt-de-membros{
+	text-align:right;
+}
+
+.container-clusters > div{
+	margin-bottom: 10px;
+}
+
+.cima-grupos{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 4px;
+}
+
+.cima, .baixo{
+	display:grid;
+	grid-template-columns: 0.9fr 15px 7fr 1fr;
+}
+
+.cima{
+	margin-bottom:2px;
+	height: 15px;
+}
+
+.position{
+	text-align: left;
+	align-self: center;
+}
+
+.quantidade-de-rt{
+	text-align:right;
+}
+
+.name{
+	margin-left: 12px;
+    color: #bbb;
+	transform: translate(0px,-2px);
+}
+
+.baixo> .barra{
+	margin-left:12px;
+	transform: translate(0px, -5px);
+}
+
+.grupo-atores{
+	margin-bottom: 8px;
+}
+
+.grupo > .position{
+	display:flex;
+	align-items:flex-end;
+}
+
+.grupo > .qnt-de-menbros{
+	display:flex;
+	align-items:flex-end;
+	margin-left:auto;
+}
+
+.cluster-localizado{
+	border-radius: 50%;
+	text-align:center;
+	margin: 4px 0px 0px 4px;
+}
+
+.container-barra{
+	margin-left: 5px;
+}
+
+.grupo-atores > .position{
+	display: flex;
+	align-items: flex-end;
+	display: flex;
+	align-items: center;
+	/* justify-content: flex-end; 
+    margin-right: 10px; */
+}
+
+.grupo-atores > .qnt-de-membros {
+	display:flex;
+	align-items:flex-end;
+	margin-left:auto;
+}
+
+.container-do-grafico{
+	margin-bottom: 0px;
+}
+
+.sessao-porcentagem > .container-do-grafico{
+	height:20px;
+	width:240px;
+}
+
+.container-textinho{
+	line-height: 1.7em;
+	font-weight: 300;
+}
+
+.sub-texto{
+	font-weight: 300px;
+	color: #bbb;
+}
+
+.texto-horas{
+	color: #bbb;
+}
+
+.titulo-composto{
+	float: left;
+}
+
+.titulo-completo{
+	margin-bottom:30px;
+}
+
+.sessao-porcentagem > .container-do-grafico > div{
+	padding-bottom:3px;
+}
+
+.legenda{
+	color:#bbb;
+}

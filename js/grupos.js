@@ -207,11 +207,12 @@ function drawBars(){
 		}
 	}
 
+	                                        //////////////////////////////////////////////////////LISTAR ATORES////////////////////////////////////////////////////////////
 	function listActorsBy(propertie){
 		var nodeColor;
 		var nodesIndexList = Object.values(sigInst._core.graph.nodesIndex);
 		var sortedNodes;
-		var actorsShown = 30;
+		var actorsShown = 150;
 		
 		sortedNodes = nodesIndexList.sort(function(a, b){
 			return b.attr.attributes[propertie] - a.attr.attributes[propertie];
@@ -244,6 +245,8 @@ function drawBars(){
 
 		$GP.actors_container.children().addClass('actor'); 
 	}
+
+	                                 //////////////////////////////////////////////////////FIM LISTAR ATORES////////////////////////////////////////////////////////////
 
 	function selectCluster(){
 		this.$GP.grupos.find(".grupo").click(function (){
